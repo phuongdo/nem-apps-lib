@@ -41,7 +41,7 @@
 			<classifier>jdk15</classifier>
 		</dependency>
 		<dependency>
-			<groupId>org.nem.core</groupId>
+			<groupId>com.github.phuongdo</groupId>
 			<artifactId>nem-core</artifactId>
 			<version>0.6.95-BETA</version>
 		</dependency>
@@ -62,7 +62,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.nem.core</groupId>
+			<groupId>com.github.phuongdo</groupId>
 			<artifactId>nem-core</artifactId>
 			<version>0.6.95-BETA</version>
 			<type>test-jar</type>
@@ -75,4 +75,10 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+       <repositories>
+         <repository>
+             <id>jitpack.io</id>
+             <url>https://jitpack.io</url>
+         </repository>
+     </repositories>
 </project>
